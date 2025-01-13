@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="My Portfolio Website">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Atharva Padyal</h1>
+      <p>Web Developer | Designer | Creator</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer with a love for clean code and creative design. I specialize in front-end development and enjoy bringing ideas to life on the web.
+      </p>
+      <p>
+        I have experience in HTML, CSS, JavaScript, React, and more. I love learning new technologies and constantly improving my skills.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="data:image/png;base64,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" alt="Project 1">
+          <h3>React Website</h3>
+          <p>Web Application built using React and Node.js</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_PXzUS6rD43UHxVJ0T75iwgp8u6fotlh0Bg&s" alt="Project 2">
+          <h3>Portfolio</h3>
+          <p>Personal portfolio website</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="What-Is-JavaScript-Used-For.avif" alt="Project 3">
+          <h3>Welcome to web</h3>
+          <p>Responsive website built with HTML, CSS, and JavaScript</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Atharva Padyal | All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/atharvapadyal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/Padyal" target="_blank">GitHub</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
